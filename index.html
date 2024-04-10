@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- <div class="wrapper">
+        <div class="mySlides fade">
+            <img src="./img/png/h1.jpg" alt="" class="slide">
+            <p class="text">Fitness</p>
+        </div>
+        <div class="mySlides fade">
+            <img src="./img/png/h2.png" alt="" class="slide">
+            <p class="text">Fitness</p>
+        </div>
+        <div class="mySlides fade">
+            <img src="./img/png/h5.png" alt="" class="slide">
+            <p class="text">Fitness</p>
+        </div>
+        <div class="mySlides fade">
+            <img src="./img/png/h7.png" alt="" class="slide">
+            <p class="text">Fitness</p>
+        </div>
+        <div class="mySlides fade">
+            <img src="./img/png/h8.png" alt="" class="slide">
+            <p class="text">Fitness</p>
+        </div>
+    </div>
+    <button class="prev">&lt;</button>
+    <button class="next">&gt;</button>
+   <div class="dotes">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+   </div> -->
+    <h1>Валидация</h1>
+    <form action="" class="form" id="add-form">
+        <div class="input-box ">
+            <input data-required="true" type="text" class="input-field name" placeholder="Имя">
+        </div>
+        <div class="input-box">
+            <input data-required="true" data-max-length="6" type="text" class="input-field surname"
+                placeholder="Фамилия">
+        </div>
+        <div class="input-box">
+            <input data-max-length="6" data-min-length="2" type="text" class="input-field secname"
+                placeholder="Отчество">
+        </div>
+        <div class="box-email">
+            <input data-type="email" type="text" class="input-field email" placeholder="Почта">
+        </div>
+        <div class="box-password">
+            <div class="flex">
+                <input data-required="true" data-password="password" type="password" class="input-field password"
+                    placeholder="Пароль">
+                <img src="./img/eye-close.png" class="close-img" alt="">
+            </div>
+        </div>
+        <!-- <div class="box-email">
+            <input data-required="true" data-symbol="@" type="text" data-mail="mail.ru" class="input-field email" placeholder="Почта">
+        </div> -->
+        <button type="submit">Отправить</button>
+    </form>
+    <!-- <a class="link" href="https://www.google.com">Переход на ссылку</a> -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
