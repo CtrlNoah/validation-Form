@@ -86,7 +86,6 @@
 .error-label {
     padding: 2px;
     color: red;
-    margin-bottom: 10px;
     transition: all 1s linear;
 }
 

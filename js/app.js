@@ -118,21 +118,7 @@ function validation(form) {
                 createError(input, 'Отсутствует заглавная буква');
                 result = false;
             }
-            if (input.value.length == 5) {
-                removeError(input);
-                createError(input, 'Легкий пароль');
-                result = false;
-            }
-            if (input.value.length >= 6) {
-                removeError(input);
-                createError(input, 'Средний по надежности пароль');
-                result = false;
-            }
-            if (input.value.length >= 9) {
-                removeError(input);
-                createError(input, 'Надежный пароль');
-                result = false;
-            }
+        
         }
 
     }
